@@ -6,5 +6,7 @@ target 'LottieOnBoarding' do
   use_frameworks!
 
   # Pods for LottieOnBoarding
-pod 'lottie-ios'
+pod 'lottie-ios' 
+git => 'https://github.com/airbnb/lottie-ios' 
+branch => 'master'
 end

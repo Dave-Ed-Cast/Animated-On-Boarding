@@ -11,7 +11,7 @@ import SwiftUI
 struct LottieOnBoardingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LottieAnimationView()
         }
     }
 }
