@@ -12,7 +12,7 @@ struct LottieAnimationView: View {
     
     var fileName: String = "Loading"
     var contentMode: UIView.ContentMode = .scaleAspectFill
-    var playLoopMode: LottieLoopMode = .playOnce
+    var playLoopMode: LottieLoopMode = .loop
     var didFinish: (() -> Void)? = nil
     var body: some View {
         LottieView(animation: .named(fileName))
@@ -27,5 +27,5 @@ struct LottieAnimationView: View {
 }
 
 #Preview {
-    LottieAnimationView(fileName: "Loading", contentMode: .center, playLoopMode: .loop)
+    LottieAnimationView(fileName: "Loading", contentMode: .center, playLoopMode: .autoReverse)
 }
