@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3E7297EA2BDD17EA0098D59F /* LottieOnBoardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7297E92BDD17EA0098D59F /* LottieOnBoardingApp.swift */; };
-		3E7297EC2BDD17EA0098D59F /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7297EB2BDD17EA0098D59F /* LottieAnimationView.swift */; };
+		3E7297EC2BDD17EA0098D59F /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7297EB2BDD17EA0098D59F /* LottieAnimation.swift */; };
 		3E7297EE2BDD17EB0098D59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7297ED2BDD17EB0098D59F /* Assets.xcassets */; };
 		3E7297F12BDD17EB0098D59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7297F02BDD17EB0098D59F /* Preview Assets.xcassets */; };
+		3EC557EE2BE29CE600695D1C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC557ED2BE29CE600695D1C /* Onboarding.swift */; };
+		3EC557F02BE2A84B00695D1C /* Map.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EC557EF2BE2A84B00695D1C /* Map.json */; };
+		3EC557F22BE2B07B00695D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC557F12BE2B07B00695D1C /* ContentView.swift */; };
 		3EC7EB122BDD42100029CBB5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC7EB112BDD42100029CBB5 /* Lottie */; };
 		3EC7EB142BDD45060029CBB5 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7EB132BDD45060029CBB5 /* Loading.json */; };
 		9EB8C5D8C891DA560385CC2F /* Pods_LottieOnBoarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247EEA5D39F3EF0EEA7EDDEC /* Pods_LottieOnBoarding.framework */; };
@@ -20,9 +23,12 @@
 		1B79F8C2109F4CA2C906C34D /* Pods-LottieOnBoarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieOnBoarding.release.xcconfig"; path = "Target Support Files/Pods-LottieOnBoarding/Pods-LottieOnBoarding.release.xcconfig"; sourceTree = "<group>"; };
 		247EEA5D39F3EF0EEA7EDDEC /* Pods_LottieOnBoarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieOnBoarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7297E92BDD17EA0098D59F /* LottieOnBoardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieOnBoardingApp.swift; sourceTree = "<group>"; };
-		3E7297EB2BDD17EA0098D59F /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		3E7297EB2BDD17EA0098D59F /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
 		3E7297ED2BDD17EB0098D59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7297F02BDD17EB0098D59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EC557ED2BE29CE600695D1C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		3EC557EF2BE2A84B00695D1C /* Map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Map.json; sourceTree = "<group>"; };
+		3EC557F12BE2B07B00695D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EC7EB132BDD45060029CBB5 /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
 		3ED49BD52BDD4B1D0096781E /* LottieOnBoarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieOnBoarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6381B7BE6D01612A9D5A6C /* Pods-LottieOnBoarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieOnBoarding.debug.xcconfig"; path = "Target Support Files/Pods-LottieOnBoarding/Pods-LottieOnBoarding.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				3E7297E92BDD17EA0098D59F /* LottieOnBoardingApp.swift */,
-				3E7297EB2BDD17EA0098D59F /* LottieAnimationView.swift */,
+				3E7297EB2BDD17EA0098D59F /* LottieAnimation.swift */,
+				3EC557ED2BE29CE600695D1C /* Onboarding.swift */,
+				3EC557F12BE2B07B00695D1C /* ContentView.swift */,
 				3E7297ED2BDD17EB0098D59F /* Assets.xcassets */,
-				3EC7EB132BDD45060029CBB5 /* Loading.json */,
+				3EC557EC2BE29CB000695D1C /* Animations */,
 				3E7297EF2BDD17EB0098D59F /* Preview Content */,
 			);
 			path = LottieOnBoarding;
@@ -77,6 +85,15 @@
 				3E7297F02BDD17EB0098D59F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EC557EC2BE29CB000695D1C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7EB132BDD45060029CBB5 /* Loading.json */,
+				3EC557EF2BE2A84B00695D1C /* Map.json */,
+			);
+			name = Animations;
 			sourceTree = "<group>";
 		};
 		924F387C579F9C37B9A717DE /* Pods */ = {
@@ -154,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC557F02BE2A84B00695D1C /* Map.json in Resources */,
 				3EC7EB142BDD45060029CBB5 /* Loading.json in Resources */,
 				3E7297F12BDD17EB0098D59F /* Preview Assets.xcassets in Resources */,
 				3E7297EE2BDD17EB0098D59F /* Assets.xcassets in Resources */,
@@ -209,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7297EC2BDD17EA0098D59F /* LottieAnimationView.swift in Sources */,
+				3EC557EE2BE29CE600695D1C /* Onboarding.swift in Sources */,
+				3E7297EC2BDD17EA0098D59F /* LottieAnimation.swift in Sources */,
+				3EC557F22BE2B07B00695D1C /* ContentView.swift in Sources */,
 				3E7297EA2BDD17EA0098D59F /* LottieOnBoardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct LottieOnBoardingApp: App {
+
     var body: some Scene {
         WindowGroup {
-            LottieAnimationView()
+            ContentView(onboardingIsOver: false)
         }
     }
 }
