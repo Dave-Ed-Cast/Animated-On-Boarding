@@ -9,14 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var onboardingIsOver: Bool
-    var body: some View {
-        if !onboardingIsOver {
-            Onboarding(onboardingIsOver: $onboardingIsOver)
-        } else {
-            Text("Hello world")
+    //we define the onboarding key
+    let onboardingStatusKey = "OnboardingStatus"
+        
+        //check if we need to run it
+        @State var onboardingIsOver: Bool = UserDefaults.standard.bool(forKey: "OnboardingStatus")
+        
+        var body: some View {
+            //and if it's the first launch
+            if !onboardingIsOver {
+                //we run it
+                Onboarding(onboardingIsOver: $onboardingIsOver)
+                //and after the user completed it
+                    .onDisappear {
+                        //we save its value
+                        UserDefaults.standard.set(true, forKey: onboardingStatusKey)
+                    }
+            } else {
+                //DA MAGICAL VIEW
+                Text("Hello world")
+            }
         }
-    }
 }
 
 #Preview {
