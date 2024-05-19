@@ -23,15 +23,13 @@ struct Onboarding: View {
     ]
     var body: some View {
         
-        //ok so bear with me now, this is boring part
         VStack(spacing: 50) {
-            //i created this view which can handle different modifiers, and 3 required fields (the first three). Lottie is extremely powerful and given any kind of animation, you can totally modify it and play it however you want. The hard part however is to make it in a way that suits your needs, so using these modifiers everyone can simply adjust accordingly
+            //the swiftui wrapped animation that we can call so we can use lottie
             LottieAnimation(name: "Map", contentMode: .scaleAspectFit, playbackMode: .playing(.fromFrame(1, toFrame: 269, loopMode: .playOnce)), width: 300, height: 230, scaleFactor: 1.5, cornerRadiusFactor: 20)
             
-            //god bless the spacers so that they do everything on their own
             Spacer()
             
-            //user, read it please
+            //onboarding text
             Text("Title \(currentStep + 1)")
                 .font(.title)
                 .fontWeight(.bold)
@@ -41,14 +39,14 @@ struct Onboarding: View {
                 .multilineTextAlignment(.center)
             Spacer()
             
-            //this is the backend in the frontend
+
             Button {
-                //so the way onboarding is completed is after pressind done all the time
+                //some logic for completion of onboarding
                 if currentStep < 2 {
                     currentStep += 1
                 } else {
                     withAnimation {
-                        //and this is the important value that is getting stored outside the onboarding
+                       
                         onboardingIsOver = true
                     }
                 }

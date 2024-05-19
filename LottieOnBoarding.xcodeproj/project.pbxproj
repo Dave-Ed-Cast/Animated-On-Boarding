@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3318D72BF8AB00009AEE8E /* TicTacToe.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3318D62BF8AB00009AEE8E /* TicTacToe.json */; };
 		3E7297EA2BDD17EA0098D59F /* LottieOnBoardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7297E92BDD17EA0098D59F /* LottieOnBoardingApp.swift */; };
 		3E7297EC2BDD17EA0098D59F /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7297EB2BDD17EA0098D59F /* LottieAnimation.swift */; };
 		3E7297EE2BDD17EB0098D59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7297ED2BDD17EB0098D59F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		1B79F8C2109F4CA2C906C34D /* Pods-LottieOnBoarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieOnBoarding.release.xcconfig"; path = "Target Support Files/Pods-LottieOnBoarding/Pods-LottieOnBoarding.release.xcconfig"; sourceTree = "<group>"; };
 		247EEA5D39F3EF0EEA7EDDEC /* Pods_LottieOnBoarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieOnBoarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3318D62BF8AB00009AEE8E /* TicTacToe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TicTacToe.json; sourceTree = "<group>"; };
 		3E7297E92BDD17EA0098D59F /* LottieOnBoardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieOnBoardingApp.swift; sourceTree = "<group>"; };
 		3E7297EB2BDD17EA0098D59F /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
 		3E7297ED2BDD17EB0098D59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		3EC557EC2BE29CB000695D1C /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				3E3318D62BF8AB00009AEE8E /* TicTacToe.json */,
 				3EC7EB132BDD45060029CBB5 /* Loading.json */,
 				3EC557EF2BE2A84B00695D1C /* Map.json */,
 			);
@@ -173,6 +176,7 @@
 			files = (
 				3EC557F02BE2A84B00695D1C /* Map.json in Resources */,
 				3EC7EB142BDD45060029CBB5 /* Loading.json in Resources */,
+				3E3318D72BF8AB00009AEE8E /* TicTacToe.json in Resources */,
 				3E7297F12BDD17EB0098D59F /* Preview Assets.xcassets in Resources */,
 				3E7297EE2BDD17EB0098D59F /* Assets.xcassets in Resources */,
 			);
